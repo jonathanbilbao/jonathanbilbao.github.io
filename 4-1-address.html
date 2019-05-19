@@ -1,0 +1,32 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="uft-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1">
+        <title>CIT 160 - Assigment Portal - Jonathan Bilbao</title>
+        <meta name="description" content="this page serves as an assigment portal home page for CIT 160  - an introduction to programming using Javascript at BYU-Idaho.">
+        <link href="https://fonts.googleapis.com/css?family=Quattrcento" rel="stylesheet">
+        <link rel="stylesheet" href="css/4-1-main.css">
+    </head>
+    <body>
+        <header>
+            <h1>Week 4: Adress Builder</h1>
+            <h2>Jonathan Bilbao</h2>
+        </header>
+        <main>
+            <h3>Building the Address</h3>
+            <label>Enter City : <input type="text" id="city"></label>
+            <label>Enter State : <input type="text" id="state"></label>
+            <label>Enter Zip Code: <input type="text" id="zip"></label>
+            <label><button onclick="address()">Build Address</button></label>
+            <hr>
+            <p>THE ADDRESS: <br> <span id="output"></span></p>
+            <br><br><a href="index.html" target="_self" >Back</a>
+        </main>
+        <footer>
+            &copy;2019 &bull; Student Name &bull; BYU-Idaho &bull; CIT 160 &bull; <span id="currentdate"></span>
+        </footer>
+        <script src="js/currentdate.js"></script>
+        <script src="js/4-1-functions.js"></script>
+    </body>
+</html>
