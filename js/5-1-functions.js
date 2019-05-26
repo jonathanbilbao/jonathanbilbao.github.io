@@ -16,6 +16,6 @@ function volume(){
 	
 
 	//showing the final result in the HTML
-	document.getElementById("output").innerHTML = volume;
+	document.getElementById("output").innerHTML = volume.toFixed(2) + " liters";
 }
 

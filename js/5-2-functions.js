@@ -22,6 +22,6 @@ function salary(){
 	
 
 	//showing the final result in the HTML
-	document.getElementById("output").innerHTML = salaryAfterTax;
+	document.getElementById("output").innerHTML = "$ " + salaryAfterTax.toFixed(2) ;
 }
 
